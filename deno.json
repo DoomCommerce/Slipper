@@ -1,0 +1,7 @@
+{
+    "importMap" : "Source/Imports.json" ,
+
+    "tasks" : {
+        "install" : "bash .config/Scripts/Install.sh"
+    }
+}
