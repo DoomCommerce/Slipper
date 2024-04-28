@@ -2,11 +2,11 @@
 
 clear
 
-deno install                           \
-    --force                            \
-    --global                           \
-    --name slipper                     \
-    --allow-write                      \
-    --allow-read                       \
-    --lock=deno.lock                   \
-    Source/mod.ts
+deno install        \
+    --force         \
+    --global        \
+    --name slipper  \
+    --allow-write   \
+    --allow-read    \
+    './Source/mod.ts'
+

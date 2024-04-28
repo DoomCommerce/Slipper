@@ -9,8 +9,6 @@
     "importMap" : "Source/Imports.json" ,
 
     "exports" : {
-        "imports" : "./Source/Imports.json" ,
-        "lock" : "./deno.lock" ,
         "." : "./Source/mod.ts"
     },
 
