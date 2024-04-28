@@ -9,5 +9,4 @@ deno install                           \
     --allow-write                      \
     --allow-read                       \
     --lock=deno.lock                   \
-    --import-map=Source/Imports.json   \
-    Source/cli.ts
+    Source/mod.ts
