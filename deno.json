@@ -1,6 +1,6 @@
 {
     "name" : "@doom/slipper" ,
-    "version" : "1.1.1" ,
+    "version" : "1.1.2" ,
 
     "tasks" : {
         "install" : "bash .config/Scripts/Install.sh"
@@ -9,8 +9,8 @@
     "importMap" : "Source/Imports.json" ,
 
     "exports" : {
-        "imports" : "./Source/Imports.json" ,
-        "lock" : "./deno.lock" ,
+        "./imports" : "./Source/Imports.json" ,
+        "./lock" : "./deno.lock" ,
         "." : "./Source/mod.ts"
     },
 
